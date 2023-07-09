@@ -1,7 +1,9 @@
+import { CharactersList } from '~/components/CharactersList';
+
 export default function Home() {
   return (
-    <div>
-      <h1>X-Men</h1>
+    <div className="flex flex-1 items-center justify-between transition-all md:-mt-[120px]">
+      <CharactersList />
     </div>
   );
 }
