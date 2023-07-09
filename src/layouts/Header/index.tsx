@@ -7,6 +7,7 @@ const Header = () => (
       alt="background-image"
       width="296"
       height="152"
+      priority
     />
   </header>
 );
