@@ -17,7 +17,10 @@ export default function Home() {
   return (
     <div className="flex flex-1 items-center justify-center gap-12 transition-all 2xl:-mt-[120px]">
       <ContentWrapper>
-        <CharactersList onSelect={setSelectedCharacter} />
+        <CharactersList
+          selectedCharacter={selectedCharacter}
+          onSelect={setSelectedCharacter}
+        />
       </ContentWrapper>
       <ContentWrapper>
         <CharacterSelected character={selectedCharacter} />
